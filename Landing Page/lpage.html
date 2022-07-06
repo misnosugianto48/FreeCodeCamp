@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- element header dengan id=header -->
+  <!-- within header dengan id=header-img gunakan logo -->
+  <!-- tambahkan nav dengan id=nav-bar -->
+  <!-- navbar selalu di atas -->
+  <!-- ada 3 li dengan class=nav-link yang terhubung ke section -->
+  <!-- embed product dengan video id=video   -->
+  <header id="header">
+    <nav id="nav-bar">
+      <img src="img/favicon_192x192_created_by_logaster.png" alt="logo misno" class="logo" id="header-img">
+      <ul>
+        <li><a class="nav-link" href="#Features">Features</a></li>
+        <li><a class="nav-link" href="#Pricing">Pricing </a></li>
+        <li><a class="nav-link" href="#About-me">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <h2>Our Techno Company-Safe And Be Healthy</h2>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email Address" class="email">
+    <input type="submit" name="submit" id="submit" value="GET STARTED" class="btn">
+  </form>
+  <div class="container">
+
+    <section id="Features">
+      <div class="grid">
+        <div>
+          <img src="img/chat.png" alt="chat">
+        </div>
+        <div class="desc">
+          <h2>Fast Respon</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad saepe, quod eos recusandae, cum aliquid unde
+            quidem facilis dolores ipsum, voluptatum odit dolor laborum!</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div>
+          <img src="img/fire.png" alt="popular">
+        </div>
+        <div class="desc">
+          <h2>Most Popular</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dicta vero doloremque porro autem repellat
+            in deleniti blanditiis pariatur optio aut laboriosam hic, odit ut?</p>
+        </div>
+      </div>
+      <div class="grid">
+        <div>
+          <img src="img/people.png" alt="Friendly">
+        </div>
+        <div class="desc">
+          <h2>Friendly Team</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti blanditiis quis expedita ex qui eaque
+            perferendis, itaque dolorem, minima pariatur, quae perspiciatis iste alias culpa!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Pricing">
+      <div class="product">
+        <div class="tag">
+          <h3>Keyboard</h3>
+        </div>
+        <h4>$200</h4>
+        <img
+          src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8a2V5Ym9hcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=600"
+          alt="Keyboard">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#"><button class="btn">Buy This</button></a>
+      </div>
+      <div class="product">
+        <div class="tag">
+          <h3>Mouse</h3>
+        </div>
+        <h4>$150</h4>
+        <img
+          src="https://images.unsplash.com/photo-1613141411244-0e4ac259d217?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000"
+          alt="Mouse">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#"><button class="btn">Buy This</button></a>
+      </div>
+      <div class="product">
+        <div class="tag">
+          <h3>Personal Computer</h3>
+        </div>
+        <h4>$500</h4>
+        <img
+          src="https://images.unsplash.com/photo-1588200908342-23b585c03e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+          alt="PC">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#"><button class="btn">Buy This</button></a>
+      </div>
+    </section>
+    <section id="About-me">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yNXWHsHt5R4"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </section>
+    <footer id="footer">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/misnosugianto48/">contact</a></li>
+      </ul>
+      <h4>Copyright 2022, FreeCodeCamp Project Landing Page. </h4>
+    </footer>
+  </div>
+  <!-- element form id = form -->
+  <!-- element input id=email  dengan placeholder-->
+  <!-- input type submit id=submit url= https://www.freecodecamp.com/email-submit-->
+
+  <!-- ada media query -->
+  <!-- menggunakan utiliti flexbox -->
+
+</body>
+
+</html>
