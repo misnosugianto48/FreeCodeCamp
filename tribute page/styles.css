@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bitter:wght@200;500&family=Source+Code+Pro:ital,wght@0,600;1,300;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Anonymous Pro', mono;
+  text-align: center;
+  background-color: #FEFFFA;
+
+}
+
+#main{
+  margin:35px 10px;
+  padding: 20px;
+
+  background-color:#FCFFE7;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px  #7F8487;
+
+}
+#main p{
+  margin-bottom: 10px;
+}
+h1{
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+h2{
+  font-size: 2.3rem;
+}
+
+#img-div{
+  background-color:#F5FFFE;
+  padding: 10px;
+  border-radius: 10px;
+}
+#image{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption{
+  margin:  15px 0 6px 0;
+}
+
+#headline{
+  margin: 40px;
+  text-align: center;
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height:1.2;
+}
+
+li{
+  margin: 14px 0;
+}
+
+a{
+  color: #4D4C7D;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#363062;
+}
+
+@media screen and (max-width: 576px){
+  #main{
+    margin:0;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  #img-caption{
+    font-size: 1rem;
+  }
+}
+
+@media  screen  and (max-width: 460px){
+  ul{
+    max-width:350px;
+    margin: 0 auto 20px auto;
+  }
+  li{
+    margin: 10px 0;
+  }
+
+  #endline{
+    font-size: 17px;
+  }
+}
