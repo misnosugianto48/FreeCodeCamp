@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey-form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Contoh Web Survey</h1>
+      <p id="description">Contoh Web Untuk Survey di Komputer</p>
+    </header>
+
+    <form action="" id="survey-form">
+      <div class="form-group">
+        <label for="name" id="name-label">Nama</label>
+        <input type="text" id="name" class="form-control" placeholder="Masukan Nama" required>
+      </div>
+      <div class="form-group">
+        <label for="email" id="email-label">E-mail</label>
+        <input type="text" id="email" class="form-control" placeholder="Masukan Alamat Email" required>
+      </div>
+      <div class="form-group">
+        <label for="number" id="number-label">Umur</label>
+        <input type="number" id="number" class="form-control" placeholder="Masukan Usia Anda" min="15" max="99"
+          name="age">
+      </div>
+      <div class="form-group">
+        <p>Pilihlah Keterampilan Anda!</p>
+        <select name="role" id="dropdown" class="form-control" required>
+          <option disabled selected value>Pilih Berdasarkan Kemampuan</option>
+          <option value="FrontEnd">FrontEnd Developer</option>
+          <option value="BackEnd">BackEnd Developer</option>
+          <option value="FullStack Web Developer">FullStack Web Developer</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <p>Bidang yang paling kamu minati!</p>
+      <div class="form-group">
+        <label for="">
+          <input type="radio" value="FrontEnd" name="user-interesting" class="input-radio">
+          FrontEnd Developer
+        </label>
+        <label for="">
+          <input type="radio" name="user-interesting" class="input-radio" value="BackEnd">
+          BackEnd Developer
+        </label>
+        <label for="">
+          <input type="radio" name="user-interesting" value="AI" class="input-radio">
+          Artificial Intelligence
+        </label>
+      </div>
+      <div class="form-group">
+        <p>check kemampuan anda yang paling dalam!</p>
+        <label for="">
+          <input type="checkbox" class="input-checkbox" name="user-skills" value="HTML5 ">
+          HTML5
+        </label>
+        <label for="">
+          <input type="checkbox" class="input-checkbox" name="user-skills" value="CSS3">
+          CSS3
+        </label>
+        <label for="">
+          <input type="checkbox" class="input-checkbox" name="user-skills" value="Javascript">
+          Javascript
+        </label>
+        <label for="">
+          <input type="checkbox" class="input-checkbox" name="user-skills" value="Python">
+          Python
+        </label>
+        <label for="">
+          <input type="checkbox" name="user-skills" class="input-checkbox" value="Golang">
+          Golang
+        </label>
+        <label for="">
+          <input type="checkbox" name="user-skills" class="input-checkbox" value="Git">
+          Git
+        </label>
+        <label for="">
+          <input type="checkbox" name="user-skills" class="input-checkbox" value="Swift">
+          Swift
+        </label>
+      </div>
+      <div class="form-group">
+        <p>Kritik Dan Saran?</p>
+        <textarea id="comments" class="input-textarea" name="comment" placeholder="Tuliskan Saran Anda..."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
